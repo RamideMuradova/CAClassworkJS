@@ -14,7 +14,6 @@
 // console.log("MIN :", min);
 // console.log("MAX :", max);
 
-
 //TASK 2
 // let numbers =[12,45,6,78,34,99,23]
 // let sum =0;
@@ -30,3 +29,17 @@
 // elements[2] = elements[3];
 // elements[3] =temp;
 // console.log("ARRAY :" + elements);
+
+// let arr = [3, 8, 2, 5, 4, 10, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 1) {
+//     console.log([i]);
+//   }
+// }
+
+// let arr = [3, 8, 2, 5, 4, 10, 7, 6];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 1) {
+//     console.log(arr[i]);
+//   }
+// }
