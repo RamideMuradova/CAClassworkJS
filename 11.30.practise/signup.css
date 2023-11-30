@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(211, 211, 236);
+  }
+  .sign-form {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .sign {
+    background-color: white;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 7px;
+    height: 60vh;
+  }
+  .name,.email-address,
+  .password, .confirm-password {
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+   
+  }
+  h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .btn-signup {
+    color: white;
+    background-color: blue;
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  p{
+      margin-top: 10px;
+  }
