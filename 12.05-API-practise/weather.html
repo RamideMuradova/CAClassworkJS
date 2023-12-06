@@ -15,25 +15,46 @@
         padding: 0;
         box-sizing: border-box;
       }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      body{
+        background-color: bisque;
+      }
+      form {
+        background-color: blue;
+      }
+      .input-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
 
+      }
     </style>
-    <form action="">
-        <div class="container">
-            <div class="input">
-                <input class="city" type="city" placeholder="city" />
-                <button class="get-btn">Get Forecast</button>
-              </div>
-        
-              <div class="country">
-                <h3>Azerbaijan</h3>
-                <p>Partly cloudy</p>
-                <p>12</p>
-                <p>8</p>
-                <p>8827.3102110</p>
-              </div>
+
+    <div class="container">
+      <div class="input-button">
+        <div class="input">
+      <form action="">
+        <div>
+          <input class="city" type="city" placeholder="city" />
         </div>
-    
-      
-    </form>
+
+            <button class="get-btn">Get Forecast</button>
+          </div>
+        </div>
+
+        <div class="country">
+          <!-- <h3>Azerbaijan</h3>
+                  <p>Partly cloudy</p>
+                  <p>12</p>
+                  <p>8</p>
+                  <p>8827.3102110</p> -->
+        </div>
+      </form>
+    </div>
   </body>
 </html>
