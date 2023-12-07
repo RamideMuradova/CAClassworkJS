@@ -21,7 +21,7 @@ function drawProducts(array) {
     allCards.innerHTML +=`
     <div class="card">
         <img src="${element.image}" alt="" />
-        <p>${element.description}</p>
+        <p>${element.title}</p>
         <p>${element.price}</p>
     </div>`;
   });
