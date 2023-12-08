@@ -40,8 +40,7 @@ span {
 }
 
 .delete,
-.edit
- {
+.edit {
   margin: 10px;
   background-color: brown;
   border-radius: 4px;
@@ -49,31 +48,43 @@ span {
   color: white;
   border: none;
 }
- .edit{
-    background-color:orange;
-    
+.edit {
+  background-color: orange;
 }
 a {
   color: rgb(21, 70, 21);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    height: 60vh;
-    align-items: center;
-    justify-content: center;
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
 }
-.select{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.submit{
-    background-color: brown;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    width: 100px;
-    height: 30px;
+.submit {
+  background-color: brown;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+.blog {
+  color: black;
+}
+select {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  color: brown;
+  font-weight: bold;
+}
+input {
+  width: 200px;
 }

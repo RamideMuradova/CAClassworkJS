@@ -41,4 +41,9 @@ search.addEventListener("input", async function (e) {
         .includes(e.target.value.toLocaleLowerCase())
     );
     drawCards(filtered);
+<<<<<<< HEAD
   });
+=======
+  });
+
+>>>>>>> 19f1555f7eac1b89f941d48537bdae29b6756b85

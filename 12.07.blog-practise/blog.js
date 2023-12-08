@@ -29,4 +29,8 @@ form.addEventListener("submit", function (event) {
   }
 
   input.forEach((item) => (item.value = ""));
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 19f1555f7eac1b89f941d48537bdae29b6756b85
