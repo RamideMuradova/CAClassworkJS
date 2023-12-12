@@ -83,7 +83,7 @@ const person = {
 //     [city: 'Poland']
 // 4. object-in age propertysini silin.
 
-// 5. Ən uzun string value-nu console-a çıxardın.
+  // 5. Ən uzun string value-nu console-a çıxardın.
 
 // ------------------------------
 
