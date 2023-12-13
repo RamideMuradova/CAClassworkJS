@@ -65,6 +65,9 @@ input {
   right: 10px;
   top: 8px;
 }
+.fa-eye-slash {
+  display: none;
+}
 a {
   align-items: center;
   justify-content: center;
