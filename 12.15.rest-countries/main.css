@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.fa-magnifying-glass {
+  position: absolute;
+}
+body{
+  background-color: aliceblue;
+}
+.dark{
+  background-color:black;
+}
